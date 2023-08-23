@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.project-input {
+  width: 400px;
+  height: 30px;
+  padding: 10px;
+  font-size: 20px;
+}
+.project-btn {
+  width: 150px;
+  height: 54px;
+  padding: 10px;
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.project-text {
+  width: 60%;
+  background-color: #61dafb;
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 20%;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+.project-name {
+  font-size: 30px;
+  font-weight: 600;
+}
+.tasks {
+  border: 1px solid black;
+  width: 60%;
+  margin-left: 20%;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+.task-name,
+.task-time {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.task-main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.select-task{
+  width: 150px;
+  height: 30px;
+  font-size: 15px;
+  padding: 5px;
+  margin-right: 20px;
+}
+.task-input{
+  width: 250px;
+  height: 30px;
+  font-size: 15px;
+  padding-left: 20px;
+  margin-right: 20px;
+}
+.task-time-input{
+  width: 150px;
+  height: 30px;
+  font-size: 15px;
+  padding-left: 8px;
+  margin-right: 10px;
+}
+.add-task-btn{
+  width: 90px;
+  padding: 9px;
+}
+
+.task-main  .tasks{
+  width: 500px;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
